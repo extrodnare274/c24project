@@ -3,7 +3,8 @@ class Iron {
       var options = {
         'density':0.8,
         'friction': 3,
-        'restitution':30
+        'restitution':1
+          
       };
       this.body = Bodies.rectangle(x, y, width, height, options);
       this.width = width;
