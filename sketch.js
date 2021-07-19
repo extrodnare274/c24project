@@ -14,11 +14,11 @@ function setup(){
     plane = new Plane(600,height,1200,20)
     hammer = new Hammer(10,100);
 
-    stone1 = new Stone(600,600,50)
+    stone1 = new Stone(600,400,50)
     iron = new Iron(800,200,50,50)
     rubber = new Rubber(400,400,23)
 
-    stone2 = new Stone(650,650,60)
+    stone2 = new Stone(650,350,60)
     iron2 = new Iron(850,250,60,60)
     rubber2 = new Rubber(450,450,33)
 
